@@ -3,7 +3,7 @@
 
 import "./styles.css";
 
-// functions for the game
+// variables for the game
 var count = 0;
 var time;
 var id;
