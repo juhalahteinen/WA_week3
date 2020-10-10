@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+}
+table,
+board {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.container {
+  align-content: center;
+}
+
+.row {
+  margin: 0;
+}
+
+.col {
+  border: 1px solid black;
+  height: 55px;
+  width: 55px;
+  font-size: 30px;
+  font-style: Helvetica;
+  text-align: center;
+}
+
+tr,
+td {
+  border: 1px solid black;
+  height: 55px;
+  width: 55px;
+  font-size: 30px;
+  font-style: Helvetica;
+  text-align: center;
+}
+
+#timeProgress {
+  width: 100%;
+  background: rgb(224, 208, 208);
+}
+
+#myBar {
+  width: 0%;
+  height: 24px;
+  background-color: rgb(13, 87, 19);
+  text-align: center;
+  line-height: 24px;
+}
